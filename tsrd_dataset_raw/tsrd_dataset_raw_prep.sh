@@ -2,7 +2,7 @@
 # make a folder for each class and move each corressponding images to the directories
 # this allows to use PyTorch ImageFolder class to easily load the data
 
-for directory in "tsrd-train" "tsrd-test"
+for directory in "train" "test"
 do
 	cd $directory
 	for n in {0..9}
