@@ -2,7 +2,7 @@
 
 #change to train dir
 cd tsrd-train
-for n in 0 1 .. 9
+for n in {0..9}
 do
 	mkdir $n
 	mv 00$n* $n
